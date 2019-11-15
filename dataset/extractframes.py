@@ -1,3 +1,6 @@
+##It basically onverts the HMDB51 video dataset to image dataset
+
+
 import cv2
 print(cv2.__version__)
 
