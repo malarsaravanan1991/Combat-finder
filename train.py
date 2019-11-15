@@ -1,3 +1,6 @@
+## Training the model and updating the weights
+
+
 from model import SqueezeNet, Fire
 import os
 import numpy as np
