@@ -15,7 +15,7 @@ inspite of the recent advancement in technology.
 
 ## Approach
 
-   1. Instead of dealing with videos along emporal dimension this project is started with image classification ,i.e the network is designed to classify images with aggreesive actions into fight category. Basically there are 8 class labels including hit,kick,push,punch,shoot gun,wave,stand, ride horse where the agressive actions like hit,punch,shootgun,kick belong to "fight" category and others belong to non-fight category
+   1. Instead of dealing with videos along temporal dimension this project is started with image classification ,i.e the network is designed to classify images with aggresive actions into fight category. Basically there are 8 class labels including hit,kick,push,punch,shoot gun,wave,stand, ride horse where the agressive actions like hit,punch,shootgun,kick belong to "fight" category and others belong to non-fight category
 
    2. The example images in the Dataset are given below for reference . There are basically extraced from the video HMDB51 dataset and annotated manually.
 
@@ -27,3 +27,18 @@ inspite of the recent advancement in technology.
 ### *Basic implmentation of combat finder on images using fastai on rresnet architecture*
 
 ![Screenshot](approach.png)
+
+## Result:
+
+#### *Number of prediction correct to the total number of images across each class*
+
+![Screenshot](results.png)
+
+#### *Accuracy rate across different resnet architectures*
+
+![Screenshot](accuracy_rate.png)
+
+## Big picture and future work
+1. Move the network to video input and train the network with lighter models like mobilenet ,squeezenet on video dataset with CCTV footages like NTU_CCTV fights.
+
+![Screenshot](bigpicture.png)
