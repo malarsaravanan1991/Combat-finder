@@ -1,6 +1,7 @@
 # Fastai implementation of Combat finder 
 Combat finder is deep learning algorithm implemented to detect fight scenes from the surveillance footage.
 Combat finder is implemented using fastai using resnet architectures (resnet18,resnet 34, resnet 50)
+##### *Refer notebook fastai implementation.ipynb*
 
 ## PRE-REQUISITE:
 
